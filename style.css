@@ -1,0 +1,27 @@
+/********* STYLE GENERAL **********/
+
+
+body {
+  margin: 10%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {  font-family: 'open Sans', helvetica;
+}
+
+
+/********* STYLE DU BLOC TITRE+TOPO *********/
+
+.titre_topo h1 {
+  display: inline-block;
+  border-bottom: 5px black solid;
+}
+
+.titre_topo p {
+  font-style: italic;
+}
