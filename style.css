@@ -15,7 +15,7 @@ p {  font-family: 'open Sans', helvetica;
 }
 
 
-/********* STYLE DU BLOC TITRE+TOPO *********/
+/********* STYLE DU HEADER*********/
 
 .titre_topo h1 {
   display: inline-block;
@@ -24,4 +24,15 @@ p {  font-family: 'open Sans', helvetica;
 
 .titre_topo p {
   font-style: italic;
+}
+
+
+/********* STYLE DES GRILLES*********/
+
+.grille {
+  display: grid;
+  grid-auto-rows: 350px;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 20px;
 }
