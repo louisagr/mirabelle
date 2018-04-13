@@ -31,8 +31,13 @@ p {  font-family: 'open Sans', helvetica;
 
 .grille {
   display: grid;
-  grid-auto-rows: 350px;
+  grid-auto-rows: auto-fit;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   grid-auto-flow: dense;
   grid-gap: 20px;
+}
+
+.agenda_semaine {
+  padding : 5px;
+  border : 1px solid black;
 }
